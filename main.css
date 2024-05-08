@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    
+}
+input{
+    height: 30px;
+    width: 277px;
+    margin-bottom: 4px;
+    padding-left: 4px;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+.btn{
+    padding-top: 6px;
+    display:flex;
+    justify-content: center;
+}
+button{
+    margin-right: 8px;
+    width: 75px;
+    height: 27px;
+}
